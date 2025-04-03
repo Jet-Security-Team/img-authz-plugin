@@ -1,0 +1,37 @@
+{
+  "description": "Authorization plugin for Docker. Enforces trust on pulled images and constrains registry access",
+  "entrypoint": ["/usr/libexec/img-authz-plugin"],
+  "interface" : {
+    "types": ["docker.authz/1.0"],
+    "socket": "img-authz-plugin.sock"
+  },
+  "env": [
+    {
+      "name": "REGISTRY",
+      "description": "Endpoint of the registry to be authorized",
+      "settable": [
+        "value"
+      ],
+      "value": ""
+    },
+    {
+      "name": "NOTARY",
+      "description": "Endpoint of the Notary to cross-check the images signatures",
+      "settable": [
+        "value"
+      ],
+      "value": ""
+    },
+    {
+      "name": "NOTARY_ROOT_CA",
+      "description": "Root CA to access the Notary API",
+      "settable": [
+        "value"
+      ],
+      "value": ""
+    }
+  ],
+  "network": {
+    "type": "host"
+  }
+}

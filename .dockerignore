@@ -1,0 +1,9 @@
+Dockerfile.test
+README.md
+.gitignore
+img-authz-plugin
+img-authz-plugin.*
+src/**
+!src/main
+!src/main/**
+PLUGIN*

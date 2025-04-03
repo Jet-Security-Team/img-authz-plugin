@@ -1,0 +1,11 @@
+.idea
+pkg
+pkg/**
+img-authz-plugin
+img-authz-plugin.*
+src/**
+!src/main
+!src/main/**
+bin
+bin/**
+PLUGIN
