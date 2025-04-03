@@ -1,4 +1,5 @@
-![scheme](https://github.com/user-attachments/assets/10833a82-fad3-4785-9db1-fe61654dd3e2)
+
+![scheme](https://github.com/user-attachments/assets/30651fa6-b6b2-4bb6-adb4-e9cb536954a8)
 
 
 # Docker Image Authorization Plugin
