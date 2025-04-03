@@ -1,5 +1,5 @@
 
-![scheme](https://github.com/user-attachments/assets/30651fa6-b6b2-4bb6-adb4-e9cb536954a8)
+![scheme](https://github.com/Jet-Security-Team/img-authz-plugin/blob/main/img/scheme.png)
 
 
 # Docker Image Authorization Plugin
